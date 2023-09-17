@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>letschatwebapp</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="kwitter.js"></script>
+    <body>
+        <input type="text" id="user_name" class="form-control" placeholder="User Name">
+        <input type="text" id="room_name" class="form_control" placeholder="Room Name">
+        <div class="btn-login">
+            <button id="login-button" class="btn btn-primary" onclick="addUser()">LOG IN</button>
+            <button id="room-button" class="btn btn-success" onclick="addRoom()">ROOM</button>
+            <div class="roomnamesholder"></div>
+        </div>
+<script src="kwitter_room.css"></script>
+<div class="redirect" onclick="redirectToRoomName()"></div>
+    </body>
+</html>
